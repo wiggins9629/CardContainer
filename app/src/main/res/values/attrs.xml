@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundImageView">
+        <!-- 显示类型 -->
+        <attr name="imageType" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="round" value="1" />
+        </attr>
+        <!-- 边框大小 -->
+        <attr name="borderWidth" format="dimension" />
+        <!-- 边框颜色 -->
+        <attr name="borderColor" format="color" />
+        <!-- 圆角大小 -->
+        <attr name="roundRadius" format="dimension" />
+        <!-- 按下状态蒙层颜色 -->
+        <attr name="coverColor" format="color" />
+        <!-- 是否可被按下 -->
+        <attr name="isPressed" format="boolean" />
+    </declare-styleable>
+
+    <string-array name="nickName">
+        <item>许是故人来</item>
+        <item>高冷话唠</item>
+        <item>初拥 似初</item>
+        <item>梦-相随</item>
+        <item>小眼睛的姑娘</item>
+        <item>我只是个玩笑</item>
+        <item>帅萌的酷</item>
+        <item>百里红妆</item>
+        <item>国民女汉纸</item>
+        <item>失恋的感觉</item>
+        <item>叮当猫</item>
+        <item>了无情趣</item>
+    </string-array>
+
+    <string-array name="signature">
+        <item>故事不够动人，说故事的人却总掉眼泪。</item>
+        <item>机会对于任何人都是公平的</item>
+        <item>杀手没有牵挂，强者没有眼泪，王者只能独自举杯。</item>
+        <item>你的负担将变成礼物，你受的苦将照亮你的路。</item>
+        <item>先学会不生气，再学会气死人。</item>
+        <item>如果你认识以前的我，就应该原谅现在的我。</item>
+        <item>当看破一切的时候，才知道，原来失去比拥有更踏实。</item>
+        <item>因为得不到所以假装不想要。</item>
+        <item>幸福是个幌，始终藏着暗伤。</item>
+        <item>对不起，是我矫情了思念。</item>
+        <item>下辈子我们能做的，只是不让我们擦肩而过。</item>
+        <item>情话说多了没有味，一晚五次也不嫌累。</item>
+    </string-array>
+</resources>
